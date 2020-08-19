@@ -9,7 +9,7 @@ html,body,
 
 body{
 	background-image: url(../images/pattern.jpg);
-    /*animation: 70s scroll infinite linear;*/
+    animation: 70s scroll infinite linear;
     background-size: 50%;
     background-position: bottom;
     background-attachment: fixed;
