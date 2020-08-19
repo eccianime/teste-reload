@@ -15,24 +15,21 @@ body{
     background-attachment: fixed;
 }
 
-@keyframes scroll{
-	100%{
-		background-position:-2000px 0px
-	}
-}
-
 .simple-card{
 	background-color: white;
-	margin: 20px 10px;
+	margin: 10px;
 	padding: 30px;
 	border-radius: 10px;
-}
-
-.simple-card img{
-	object-fit: cover;
 }
 
 svg path:hover{
 	fill: red;
 	cursor: pointer;
+}
+
+
+@keyframes scroll{
+	100%{
+		background-position:-2000px 0px
+	}
 }
