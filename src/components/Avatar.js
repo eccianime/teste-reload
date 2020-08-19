@@ -2,8 +2,13 @@ import React from 'react';
 import svg from '../images/Corpo-avatar.svg';
 
 function Avatar() {
+	const changeFill = ()=>{
+		console.log( "Paso aqui" );
+	}
 	return (
 		<svg 
+			onClick={changeFill}
+			onHover={changeFill}
 			viewBox="0 0 406.89 847.72" 
 			xmlns="http://www.w3.org/2000/svg" 
 			xmlnsXlink="http://www.w3.org/1999/xlink">
