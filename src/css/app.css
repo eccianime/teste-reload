@@ -1,0 +1,23 @@
+html,body,
+#root{
+	background: transparent;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-image: url(../images/pattern.jpg);
+    /*animation: 70s scroll infinite linear;*/
+    background-size: 50%;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+@keyframes scroll{
+	100%{
+		background-position:-2000px 0px
+	}
+}
